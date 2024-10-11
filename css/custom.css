@@ -1371,7 +1371,8 @@ header.main-header .header-sticky.active{
 
 .visit-clinic{
 	position: relative;
-	background: url('../images/visit-clinic-bg.jpg') no-repeat;
+	/* background: url('../images/visit-clinic-bg.jpg') no-repeat; */
+	background: url('../images/drteam.JPG') no-repeat;
 	background-position: center center;
 	background-size: auto;
 	border-radius: 40px;
@@ -2093,12 +2094,12 @@ text-align: center;
 }
 
 .contact-google-map .google-map-iframe iframe{
-	filter: grayscale(1);
+	/* filter: grayscale(1); */
 	transition: all 0.3s ease-in-out;
 }
 
 .contact-google-map .google-map-iframe iframe:hover{
-	filter: grayscale(0);
+	/* filter: grayscale(0); */
 }
 
 .contact-now-content{
@@ -4703,6 +4704,14 @@ footer.main-footer{
 }
 
 @media only screen and (max-width: 767px){
+
+	.seatdr_responsive{
+		width: 230px!important;
+	}
+
+	.visit-clinic{
+		background-size: cover;
+	}
 
 	.section-row{
         margin-bottom: 30px;
